@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS-3135 Quinn Harris' Quick Hedgehog | HTML Form</title>
+    <link rel="stylesheet" href="styles/default.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Quinn Harris' Quick Hedgehog | HTML Form</h1>
+        <h3>Navigation:</h3>
+        <nav>
+            <a href=index.html>| Home |</a></li>
+            <a href=introduction.html>| Intro Page |</a></li>
+            <a href=tables.html>| HTML Tables |</a></li>
+            <a href=forms.html>| HTML Form |</a></li>
+            <a href="website_evaluations.html">| Website Evaluations |</a></li>
+            <a href="stuff/CRAP !.htm">| Crappy Website |</a></li>
+            <a href="firstscripts.html">| First Scripts |</a>
+            <a href="polygons.html">| Polygons |</a>
+            
+        </nav>
+    </header>
+    <main>
+        <h2>HTML Form</h2>
+        <form action="#">
+            <label for="fname">Full Name:</label>
+            <input id="fname" type="text" required placeholder="John Smith">
+            <label for="pnumber">Phone Number:</label>
+            <input id="pnumber" type="text" required placeholder="123-456-7890"><br><br>
+            <label for="email">Email:</label>
+            <input id="email" type="email" required placeholder="youremail@here.com">
+
+            <p>Main type of transportation:</p>
+            <input name="transportation" id="radio1" type="radio">
+            <label for="radio1">Bike</label><br>
+            <input name="transportation" id="radio2" type="radio">
+            <label for="radio2">Car</label><br>
+            <input name="transportation" id="radio3" type="radio">
+            <label for="radio3">Train/Bus</label><br>
+
+            <p><label for="pets">How many pets do you have:</label>
+                <select name="pets" id="pets">
+                    <option value="0">None</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3+">3+</option>
+                </select>
+            </p>
+            <p>What level(s) of education have you completed?</p>
+            <input type="checkbox" name="education" id="check1">
+            <label for="check1">High School</label>
+            <input type="checkbox" name="education" id="check2">
+            <label for="check2">College</label>
+            <input type="checkbox" name="education" id="check3">
+            <label for="check3">Post Grad</label>
+            <br>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+
+        </form>
+    </main>
+    <footer>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

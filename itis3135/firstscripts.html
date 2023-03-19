@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS-3135 Quinn Harris' Quick Hedgehog | First Scripts</title>
+    <link rel="stylesheet" href="styles\default.css">
+    <script src="scripts/defaultscripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>ITIS-3135 Quinn Harris' Quick Hedgehog</h1>
+        <h3>Navigation:</h3>
+        <nav>
+            <a href=index.html>| Home |</a></li>
+            <a href=introduction.html>| Intro Page |</a></li>
+            <a href=tables.html>| HTML Tables |</a></li>
+            <a href=forms.html>| HTML Form |</a></li>
+            <a href="website_evaluations.html">| Website Evaluations |</a></li>
+            <a href="stuff/CRAP !.htm">| Crappy Website |</a></li>
+            <a href="firstscripts.html">| First Scripts |</a>
+            <a href="polygons.html">| Polygons |</a>
+
+        </nav>
+        
+    </header>
+    <main>
+        <h2>First Scripts</h2>
+        <h3>Today is <span id="date"></span> at <span id="time"></span></h3>
+        
+        <div class="border">
+        <label for="fname">Full Name:</label>
+        <input id="fname" type="text" required placeholder="John Smith">
+        <label for="feel">How Are You Feeling:</label>
+        <input id="feel" type="text" required placeholder="Happy">
+        <input type="button" onclick="nf()" value="Submit">
+        <p id="nf"></p>
+        </div>
+        <br><br>
+        <script src="scripts/defaultscripts.js"></script>
+
+        <input type="button" onclick="best()" value="Learn which animal is the best">
+        <br><br><br>
+        
+        <div class="border"><h4>Let's play my favorite game its called: Quinn Wins</h4>
+        <label for="game">What is 2 + 2:</label>
+        <input id="game" type="text" placeholder="4">
+        <input type="button" onclick="game()" value="Play!">
+        </div>
+
+        <br><br>
+        <input type="button" onclick="compliment()" value="Provide a compliment">
+        <br><br><br>
+
+        <div class="border"><h4>Find out which is the best, compare any two objects below</h4>
+        <input id="best" type="text" placeholder="Hedgehog">
+        <input type="text" placeholder="Literally anything else">
+        <input type="button" onclick="compare()" value="Find Out">
+        <p id="answer"></p>
+        </div>
+
+        <br><br>
+        <h4>How many hedgehogs do you have in total (enter two integers below)</h4>
+        <label for="i1">Quick Hedgehogs:</label>
+        <input id="i1" type="text" placeholder="2">
+        <br>
+        <label for="i2">Slow Hedgehogs:</label>
+        <input id="i2" type="text" placeholder="2">
+        <input type="button" onclick="add()" value="Calculate">  
+        <p id="result"></p>      
+    </main>
+    <footer>
+        <p>Designed by <a href="qss.io\index.html">QSS</a></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIS-3135 Quinn Harris' Quick Hedgehog | Table</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <style>
+        .odd {
+            background-color: darkgrey;
+        }
+        .even {
+            background-color: antiquewhite;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ITIS-3135 Quinn Harris' Quick Hedgehog | HTML Tables</h1>
+        <h3>Navigation:</h3>
+        <nav>
+            <a href=index.html>| Home |</a></li>
+            <a href=introduction.html>| Intro Page |</a></li>
+            <a href=tables.html>| HTML Tables |</a></li>
+            <a href=forms.html>| HTML Form |</a></li>
+            <a href="website_evaluations.html">| Website Evaluations |</a></li>
+            <a href="stuff/CRAP !.htm">| Crappy Website |</a></li>
+            <a href="firstscripts.html">| First Scripts |</a>
+            <a href="polygons.html">| Polygons |</a>
+            
+        </nav>
+    </header>
+    <main>
+        <h2>HTML Tables</h2>
+        <h3>My Tabular Data</h3>
+        <ol type="i">
+            <li>John Smith jsmith@gmail.com 4</li>
+            <li>Jane Dove jdove@gmail.com 7</li>
+            <li>Michael Johnson mjohnson@gmail.com 5</li>
+            <li>Susan Williams susanw@gmail.com 12</li>
+            <li>David Brown brownd@gmail.com 7</li>
+            <li>Robert Jones rjones@gmail.com 8</li>
+            <li>Kevin Miller kmiller@gmail.com 2</li>
+            <li>Susan Garcia sgarcia@gmail.com 50</li>
+            <li>Karen Martinez kmartinez@gmail.com 17</li>
+            <li>Timothy Anderson tima@gmail.com 10</li>
+        </ol>
+        <h3>Employee Data in Simple Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Years of Service</th>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>jsmith@gmail.com</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Jane Dove </td>
+                <td>jdove@gmail.com</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>mjohnson@gmail.com</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Susan Williams</td>
+                <td>susanw@gmail.com</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>David Brown</td>
+                <td>brownd@gmail.com</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Robert Jones</td>
+                <td>rjones@gmail.com</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Kevin Miller</td>
+                <td>kmiller@gmail.com</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Susan Garcia</td>
+                <td>sgarcia@gmail.com</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Karen Martinez</td>
+                <td>kmartinez@gmail.com</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Timothy Anderson</td>
+                <td>tima@gmail.com</td>
+                <td>10</td>
+            </tr>
+        </table>
+
+        <h3>Employee Data in Complex Table</h3>
+        <figure>
+            <table>
+                <thead style = "background-color: gray;">
+                    <tr>
+                        <th>Team</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Years of Service</th>
+                        <th>Monthly Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="even">
+                        <td rowspan="3">Marketing</td>
+                        <td>John Smith</td>
+                        <td>jsmith@gmail.com</td>
+                        <td>4</td>
+                        <td>$5,000</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Jane Dove </td>
+                        <td>jdove@gmail.com</td>
+                        <td>7</td>
+                        <td>$7,000</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Michael Johnson</td>
+                        <td>mjohnson@gmail.com</td>
+                        <td>5</td>
+                        <td>$5,000</td>
+                    </tr>
+                    <tr class="odd">
+                        <td rowspan="4">Sales</td>
+                        <td>Susan Williams</td>
+                        <td>susanw@gmail.com</td>
+                        <td>12</td>
+                        <td>$3,000</td>
+                    </tr>
+                    <tr class="even">
+                        <td>David Brown</td>
+                        <td>brownd@gmail.com</td>
+                        <td>7</td>
+                        <td>$4,500</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Robert Jones</td>
+                        <td>rjones@gmail.com</td>
+                        <td>8</td>
+                        <td>$4,500</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Kevin Miller</td>
+                        <td>kmiller@gmail.com</td>
+                        <td>2</td>
+                        <td>$6,500</td>
+                    </tr>
+                    <tr class="odd">
+                        <td rowspan="3">Devolpment</td>
+                        <td>Susan Garcia</td>
+                        <td>sgarcia@gmail.com</td>
+                        <td>50</td>
+                        <td>$4,500</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Karen Martinez</td>
+                        <td>kmartinez@gmail.com</td>
+                        <td>17</td>
+                        <td>$5,000</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>Timothy Anderson</td>
+                        <td>tima@gmail.com</td>
+                        <td>10</td>
+                        <td>$5,000</td>
+                    </tr>
+                    <tr class="even">
+                        <th colspan="3">Total Years of Service:</th>
+                        <th>132</th>
+                        <th>Total Salaries: $50,000</th>
+                    </tr>
+                </tbody>
+            </table>
+            <figcaption>Employee Data</figcaption>
+        </figure>
+
+    </main>
+    <footer>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.charlotte.edu%2Fhharri45%2Fitis3135%2Fhtml_Table%2F">HTML Checker</a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.charlotte.edu%2Fhharri45%2Fitis3135%2Fhtml_Table%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS Validator</a>
+    </footer>
+</body>
+
+</html>

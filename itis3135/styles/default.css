@@ -1,0 +1,37 @@
+body{
+    background-color: #00B2CA;
+    color: #3B429F;
+}
+.button{
+    background-color: #37371F;
+    color: #F2F5FF;
+}
+input{
+    background-color: #37371F;
+    color: #F2F5FF;
+    padding: 5px 5px;
+}
+select{
+    background-color: #37371F;
+    color: #F2F5FF;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: pink;
+}
+header, footer{
+    text-align: center;
+}
+div.border{
+    border: solid;
+    border-color: #3B429F;
+    border-radius: 8px;
+}
