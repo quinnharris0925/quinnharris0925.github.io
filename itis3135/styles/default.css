@@ -35,3 +35,9 @@ div.border{
     border-color: #3B429F;
     border-radius: 8px;
 }
+#display{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 200%;
+}
