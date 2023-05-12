@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Roamers - Vehicles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Road Roamers</h1>
+        <h3>Navigation:</h3>
+        <nav>
+            <a href=../index.html>| Home |</a>
+            <a href="/itis3135/introduction.html">| Intro Page |</a>
+            <a href=/itis3135/tables.html>| HTML Tables |</a>
+            <a href=/itis3135/forms.html>| HTML Form |</a>
+            <a href="/itis3135/website_evaluations.html">| Website Evaluations |</a>
+            <a href="/itis3135/firstscripts.html">| First Scripts |</a>
+            <a href="/itis3135/polygons.html">| Polygons |</a>
+            <a href="/itis3135/contract.html">| Contract |</a>
+            <a href="/itis3135/calculator_try.html">| Calculator Try |</a>
+            <a href="/itis3135/calculator_fcc.html">| Calculator FCC |</a>
+            <a href="/itis3135/project_1.html">| Project |</a>
+
+        </nav>
+        <h3>Other pages:</h3>
+        <nav>
+            <a href="/itis3135/stuff/CRAP !.htm">| Crappy Website |</a>
+            <a href="hobby/index.html">| Hobby |</a>
+
+        </nav>
+        <h3>Project pages:</h3>
+        <nav>
+            <a href="index.html">Who is Vanlife For?</a>
+            <a href="benefits.html">| Benefits |</a>
+            <a href="vehicles.html">| Vehicles |</a>
+            <a href="costs.html">| Costs To Consider |</a>
+            <a href="calc.html">| Savings Preparedness Calculator |</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Vehicles for Vanlife</h1>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/van.jpg" alt="Van for Vanlife">
+                <div class="text">
+                    <h2>Van</h2>
+                    <p>A van is the most popular vehicle choice for vanlife. They offer ample space for living and
+                        storage, and are easy to customize for your needs. However, they can be expensive to purchase
+                        and maintain, and their size can make it difficult to park in certain areas.</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/truck.jpg" alt="Truck for Vanlife">
+                <div class="text">
+                    <h2>Truck</h2>
+                    <p>A truck can offer more off-road capabilities and towing power than a van, but they have less
+                        interior space. They can also be more difficult to drive and maneuver, especially in urban
+                        areas.</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/sedan.jpg" alt="Sedan for Vanlife">
+                <div class="text">
+                    <h2>Sedan</h2>
+                    <p>A sedan may not be the first choice for vanlife, but they can still be used for weekend camping
+                        trips or short-term travel. They offer better gas mileage and are easier to park than larger
+                        vehicles, but their size limits their storage and living space.</p>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <style>
+            .slideshow-container {
+                position: relative;
+            }
+
+            .mySlides {
+                display: none;
+            }
+
+            .prev,
+            .next {
+                position: absolute;
+                top: 50%;
+                width: auto;
+                margin-top: -22px;
+                padding: 16px;
+                color: white;
+                font-weight: bold;
+                font-size: 24px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+            }
+
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+
+            .caption {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 18px;
+                padding: 10px;
+            }
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        </style>
+        <script>
+            //Used chatGPT to learn how to set this script up
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex - 1].style.display = "block";
+            }
+        </script>
+    </main>
+
+    <footer>
+        <p>2023 Vanlife</p>
+    </footer>
+</body>
+
+</html>
